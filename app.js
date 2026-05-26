@@ -1,4 +1,5 @@
 const express = require('express')
+app.disable = ('x-powered-by');
 const mysql = require('mysql');
 const app = express()
 const path = require('path')
